@@ -992,7 +992,7 @@ description: `
 3 Bulan - 40K
 `
   }
-  ,
+
 {
 name: "Canva Edu Harian",
 category: "Design",
@@ -1365,7 +1365,7 @@ description: `
 1 Bulan - 30K
 `
   }
-  ,
+
 {
 name: "iQIYI Premium Anime",
 category: "Streaming",
