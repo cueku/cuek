@@ -796,3 +796,19 @@ to{
 transform:scale(1.1);
 }
 }
+.loader-kawaii img{
+width:220px;
+max-width:80%;
+display:block;
+margin:auto;
+animation:floatCute 2s ease-in-out infinite;
+}
+
+@keyframes floatCute{
+0%,100%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-10px);
+}
+}
