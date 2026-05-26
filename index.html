@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cueku Store</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#fff6fb;
+color:#333;
+overflow-x:hidden;
+}
+
+body::before{
+content:"";
+position:fixed;
+inset:0;
+background:
+radial-gradient(circle at 20% 20%,rgba(255,182,193,.25),transparent 300px),
+radial-gradient(circle at 80% 60%,rgba(255,192,203,.25),transparent 300px);
+z-index:-2;
+}
+
+.header{
+position:sticky;
+top:0;
+z-index:999;
+background:rgba(255,255,255,.85);
+backdrop-filter:blur(12px);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 6%;
+border-bottom:1px solid #ffd8e6;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#e06d9f;
+}
+
+.navbar{
+display:flex;
+gap:20px;
+}
+
+.navbar a{
+text-decoration:none;
+color:#555;
+font-weight:600;
+}
+
+.header-btn{
+background:#ff7fb0;
+color:white;
+padding:10px 20px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
+
+.hero{
+padding:100px 20px;
+text-align:center;
+}
+
+.badge{
+display:inline-block;
+background:#ffe2ee;
+color:#d45a91;
+padding:10px 18px;
+border-radius:999px;
+margin-bottom:20px;
+font-weight:600;
+}
+
+.hero h1{
+font-size:58px;
+color:#e06d9f;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+max-width:700px;
+margin:auto;
+line-height:1.7;
+}
+
+.hero-buttons{
+margin-top:30px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.primary-btn,
+.secondary-btn{
+padding:14px 28px;
+border-radius:999px;
+text-decoration:none;
+font-weight:700;
+}
+
+.primary-btn{
+background:#ff7fb0;
+color:white;
+}
+
+.secondary-btn{
+background:white;
+border:2px solid #ff7fb0;
+color:#ff7fb0;
+}
+
+.search-wrapper{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+#searchInput{
+width:100%;
+padding:18px;
+border:none;
+border-radius:20px;
+font-size:16px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.category-wrapper{
+display:flex;
+gap:10px;
+padding:10px 20px 30px;
+overflow:auto;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.category{
+border:none;
+background:white;
+padding:12px 20px;
+border-radius:999px;
+cursor:pointer;
+font-weight:600;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.category.active{
+background:#ff7fb0;
+color:white;
+}
+
+.section-title{
+text-align:center;
+padding:30px 20px;
+}
+
+.section-title h2{
+font-size:38px;
+color:#e06d9f;
+margin-bottom:10px;
+}
+
+#productGrid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+padding:20px 6% 80px;
+}
+
+.product-card{
+background:white;
+border-radius:25px;
+padding:25px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.product-card:hover{
+transform:translateY(-5px);
+}
+
+.product-category{
+display:inline-block;
+padding:8px 14px;
+background:#ffe2ee;
+border-radius:999px;
+font-size:13px;
+margin-bottom:15px;
+}
+
+.product-card h3{
+font-size:24px;
+margin-bottom:15px;
+}
+
+.price-list{
+display:flex;
+flex-direction:column;
+gap:8px;
+margin-bottom:20px;
+}
+
+.price-item{
+background:#fff4f8;
+padding:10px;
+border-radius:10px;
+}
+
+.order-btn{
+display:block;
+text-align:center;
+background:#ff7fb0;
+color:white;
+padding:12px;
+border-radius:15px;
+text-decoration:none;
+font-weight:700;
+}
+
+#gallery{
+padding:80px 6%;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.gallery-placeholder{
+height:220px;
+background:white;
+border:3px dashed #ffb6cf;
+border-radius:25px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:700;
+color:#d97ba3;
+}
+
+.why-us{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:50px 6%;
+}
+
+.why-card{
+background:white;
+padding:30px;
+text-align:center;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+font-weight:700;
+}
+
+footer{
+padding:60px 20px;
+background:#ffd8e6;
+text-align:center;
+}
+
+.footer-links{
+display:flex;
+justify-content:center;
+gap:15px;
+margin:20px 0;
+flex-wrap:wrap;
+}
+
+.footer-links a{
+text-decoration:none;
+color:#444;
+font-weight:600;
+}
+
+#scrollTop{
+position:fixed;
+right:20px;
+bottom:20px;
+width:50px;
+height:50px;
+border:none;
+border-radius:50%;
+background:#ff7fb0;
+color:white;
+font-size:20px;
+cursor:pointer;
+}
+
+@media(max-width:768px){
+
+.header{
+flex-direction:column;
+gap:15px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header class="header">
+
+<div class="logo">
+🎀 Cueku Store
+</div>
+
+<nav class="navbar">
+<a href="#products">Produk</a>
+<a href="#gallery">Gallery</a>
+<a href="#footer">Kontak</a>
+</nav>
+
+<a href="https://wa.me/62895419050123" class="header-btn">
+WhatsApp
+</a>
+
+</header>
+
+<section class="hero">
+
+<span class="badge">
+Trusted Since 2020
+</span>
+
+<h1>Cueku Store</h1>
+
+<p>
+Premium Streaming, AI Tools, Canva, VPN, Music, Editing dan berbagai akun premium lainnya.
+</p>
+
+<div class="hero-buttons">
+
+<a href="#products" class="primary-btn">
+Lihat Produk
+</a>
+
+<a href="https://wa.me/62895419050123" class="secondary-btn">
+Order Sekarang
+</a>
+
+</div>
+
+</section>
+
+<section class="search-wrapper">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Cari produk..."
+>
+
+</section>
+
+<section class="category-wrapper">
+
+<button class="category active">All</button>
+<button class="category">Streaming</button>
+<button class="category">Music</button>
+<button class="category">AI</button>
+<button class="category">Editing</button>
+<button class="category">VPN</button>
+
+</section>
+
+<section id="products">
+
+<div class="section-title">
+<h2>Produk Premium</h2>
+<p>Pilih produk favoritmu</p>
+</div>
+
+<div id="productGrid">
+
+<div class="product-card">
+<div class="product-category">AI</div>
+<h3>ChatGPT Plus</h3>
+
+<div class="price-list">
+<div class="price-item">1 Hari - 9K</div>
+<div class="price-item">3 Hari - 12K</div>
+<div class="price-item">7 Hari - 17K</div>
+<div class="price-item">1 Bulan - 42K</div>
+</div>
+
+<a class="order-btn" href="#">
+Order
+</a>
+</div>
+
+<div class="product-card">
+<div class="product-category">Music</div>
+<h3>Spotify Famplan</h3>
+
+<div class="price-list">
+<div class="price-item">1 Hari - 10K</div>
+<div class="price-item">3 Hari - 12K</div>
+<div class="price-item">7 Hari - 17K</div>
+<div class="price-item">1 Bulan - 25K</div>
+</div>
+
+<a class="order-btn" href="#">
+Order
+</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<div class="section-title">
+<h2>Pricelist Gallery</h2>
+</div>
+
+<div class="gallery-grid">
+
+<div class="gallery-placeholder">catalog1.jpg</div>
+<div class="gallery-placeholder">catalog2.jpg</div>
+<div class="gallery-placeholder">catalog3.jpg</div>
+<div class="gallery-placeholder">catalog4.jpg</div>
+
+</div>
+
+</section>
+
+<footer id="footer">
+
+<h2>Cueku Store</h2>
+
+<p>Trusted Digital Marketplace Since 2020</p>
+
+<div class="footer-links">
+<a href="#">Instagram</a>
+<a href="#">TikTok</a>
+<a href="#">WhatsApp</a>
+</div>
+
+<p>© 2025 Cueku Store</p>
+
+</footer>
+
+<button id="scrollTop">↑</button>
+
+<script>
+
+const scrollBtn=document.getElementById("scrollTop");
+
+window.addEventListener("scroll",()=>{
+
+if(window.scrollY>300){
+scrollBtn.style.display="block";
+}else{
+scrollBtn.style.display="none";
+}
+
+});
+
+scrollBtn.onclick=()=>{
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+};
+
+</script>
+
+</body>
+</html>
