@@ -669,3 +669,130 @@ translateY(0px)
 rotate(0deg);
 }
 }
+/* ========================= */
+/* WOW LOADER */
+/* ========================= */
+
+.loader-bg{
+position:absolute;
+inset:0;
+
+background:
+radial-gradient(circle at 20% 20%,rgba(255,180,220,.35),transparent 250px),
+radial-gradient(circle at 80% 30%,rgba(170,220,255,.35),transparent 250px),
+radial-gradient(circle at 50% 90%,rgba(255,220,255,.35),transparent 300px);
+
+animation:bgMove 8s linear infinite alternate;
+}
+
+.loader-card{
+position:relative;
+overflow:hidden;
+z-index:2;
+}
+
+.loader-circle{
+position:absolute;
+
+width:220px;
+height:220px;
+
+border-radius:50%;
+
+background:
+linear-gradient(
+135deg,
+rgba(255,170,220,.35),
+rgba(160,220,255,.35)
+);
+
+filter:blur(30px);
+
+top:-70px;
+left:50%;
+
+transform:translateX(-50%);
+
+animation:spinGlow 8s linear infinite;
+}
+
+.loader-kawaii{
+font-size:55px;
+position:relative;
+z-index:3;
+
+animation:bounceCute 2s ease-in-out infinite;
+}
+
+.loader-stars{
+margin:15px 0;
+
+font-size:18px;
+letter-spacing:8px;
+
+animation:blinkStars 2s infinite;
+}
+
+.loader-card h1{
+background:
+linear-gradient(
+90deg,
+#ff77b7,
+#8fd8ff
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+@keyframes bounceCute{
+
+0%,100%{
+transform:
+translateY(0)
+scale(1);
+}
+
+50%{
+transform:
+translateY(-12px)
+scale(1.05);
+}
+}
+
+@keyframes blinkStars{
+
+0%,100%{
+opacity:.4;
+}
+
+50%{
+opacity:1;
+}
+}
+
+@keyframes spinGlow{
+
+from{
+transform:
+translateX(-50%)
+rotate(0deg);
+}
+
+to{
+transform:
+translateX(-50%)
+rotate(360deg);
+}
+}
+
+@keyframes bgMove{
+
+from{
+transform:scale(1);
+}
+
+to{
+transform:scale(1.1);
+}
+}
