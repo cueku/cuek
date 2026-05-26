@@ -126,8 +126,8 @@ name: "Beauty+ iOS",
 category: "Editing",
 price: "30K",
 description: `
-1 Bulan iOS - 30K
-Lifetime iOS - 40K
+1 Bulan - 30K
+Lifetime - 40K
 `
 },
 
@@ -136,13 +136,22 @@ name: "Beauty+ Android",
 category: "Editing",
 price: "33K",
 description: `
-1 Bulan Android - 33K
-Lifetime Android - 43K
+1 Bulan - 33K
+Lifetime - 43K
 `
 },
 
 {
-name: "Video Platinum Sharing TV",
+name: "Kilonotes Lifetime",
+category: "Tools",
+price: "35K",
+description: `
+Lifetime - 35K
+`
+},
+
+{
+name: "Vidio Platinum Sharing TV",
 category: "Streaming",
 price: "Mulai 5K",
 description: `
@@ -154,7 +163,7 @@ description: `
 },
 
 {
-name: "Video Platinum Private TV",
+name: "Vidio Platinum Private TV",
 category: "Streaming",
 price: "Mulai 6K",
 description: `
@@ -166,7 +175,7 @@ description: `
 },
 
 {
-name: "Video Platinum Sharing HP",
+name: "Vidio Platinum Sharing HP",
 category: "Streaming",
 price: "Mulai 6K",
 description: `
@@ -178,7 +187,7 @@ description: `
 },
 
 {
-name: "Video Platinum Private HP",
+name: "Vidio Platinum Private HP",
 category: "Streaming",
 price: "Mulai 8K",
 description: `
@@ -190,7 +199,7 @@ description: `
 },
 
 {
-name: "Video Platinum Sharing All Device",
+name: "Vidio Platinum Sharing All Device",
 category: "Streaming",
 price: "Mulai 7K",
 description: `
@@ -202,7 +211,7 @@ description: `
 },
 
 {
-name: "Video Platinum Private All Device",
+name: "Vidio Platinum Private All Device",
 category: "Streaming",
 price: "Mulai 9K",
 description: `
@@ -238,7 +247,7 @@ description: `
 },
 
 {
-name: "Get Contact Private",
+name: "GetContact Private",
 category: "Tools",
 price: "Mulai 5K",
 description: `
@@ -250,7 +259,7 @@ description: `
 },
 
 {
-name: "Meitu Android Private",
+name: "Meitu Private Android",
 category: "Editing",
 price: "Mulai 5K",
 description: `
@@ -278,365 +287,8 @@ description: `
 6 Bulan - 25K
 1 Tahun - 32K
 `
-}
-
-];
-{
-name: "Picsart Sharing",
-category: "Editing",
-price: "15K",
-description: `
-1 Bulan 15K
-`
 },
-
-{
-name: "Picsart Private",
-category: "Editing",
-price: "20K",
-description: `
-1 Bulan 20K
-`
-},
-
-{
-name: "Dazzcam Lifetime",
-category: "Editing",
-price: "25K",
-description: `
-Lifetime 25K
-`
-},
-
-{
-name: "Express VPN Sharing",
-category: "VPN",
-price: "25K",
-description: `
-1 Bulan 25K
-`
-},
-
-{
-name: "Express VPN Private",
-category: "VPN",
-price: "30K",
-description: `
-1 Bulan 30K
-`
-},
-
-{
-name: "Wattpad Sharing",
-category: "Tools",
-price: "15K",
-description: `
-1 Bulan 15K
-2 Bulan 33K
-3 Bulan 40K
-6 Bulan 45K
-`
-},
-
-{
-name: "Wattpad Private",
-category: "Tools",
-price: "65K",
-description: `
-1 Bulan 65K
-`
-},
-
-{
-name: "NordVPN Sharing",
-category: "VPN",
-price: "Mulai 5K",
-description: `
-3 Hari 5K
-5 Hari 7K
-7 Hari 10K
-1 Bulan 20K
-1 Tahun 25K
-`
-},
-
-{
-name: "NordVPN Private",
-category: "VPN",
-price: "15K",
-description: `
-7 Hari 15K
-`
-},
-
-{
-name: "Bstation Private",
-category: "Streaming",
-price: "Mulai 15K",
-description: `
-7 Hari 15K
-14 Hari 20K
-1 Bulan 30K
-`
-},
-
-{
-name: "Bstation Sharing",
-category: "Streaming",
-price: "10K",
-description: `
-1 Bulan 10K
-3 Bulan 16K
-1 Tahun 20K
-`
-},
-
-{
-name: "DramaBox Sharing",
-category: "Streaming",
-price: "Mulai 7K",
-description: `
-1 Hari 7K
-3 Hari 12K
-5 Hari 17K
-7 Hari 20K
-14 Hari 30K
-1 Bulan 36K
-2 Bulan 56K
-3 Bulan 86K
-`
-},
-
-{
-name: "DramaBox Private",
-category: "Streaming",
-price: "25K",
-description: `
-1 Bulan 25K
-`
-},
-
-{
-name: "Surfshark Sharing",
-category: "VPN",
-price: "Mulai 17K",
-description: `
-7 Hari 17K
-14 Hari 22K
-1 Bulan 28K
-2 Bulan 30K
-3 Bulan 32K
-`
-},
-
-{
-name: "Surfshark Private",
-category: "VPN",
-price: "Mulai 18K",
-description: `
-7 Hari 18K
-14 Hari 25K
-1 Bulan 45K
-2 Bulan 65K
-`
-},
-
-{
-name: "Viki Sharing",
-category: "Streaming",
-price: "Mulai 5K",
-description: `
-1 Hari 5K
-2 Hari 6K
-4 Hari 8K
-5 Hari 10K
-14 Hari 15K
-1 Bulan 20K
-2 Bulan 25K
-`
-},
-
-{
-name: "Viki Private Standard",
-category: "Streaming",
-price: "15K",
-description: `
-7 Hari 15K
-`
-},
-
-{
-name: "Quillbot Sharing",
-category: "Tools",
-price: "Mulai 5K",
-description: `
-1 Hari 5K
-3 Hari 7K
-5 Hari 9K
-7 Hari 10K
-1 Bulan 15K
-`
-},
-
-{
-name: "Quillbot Private",
-category: "Tools",
-price: "50K",
-description: `
-1 Bulan 50K
-`
-},
-
-{
-name: "Microsoft 365 Member",
-category: "Tools",
-price: "Mulai 5K",
-description: `
-1 Hari 5K
-3 Hari 7K
-5 Hari 8K
-7 Hari 10K
-1 Bulan 14K
-2 Bulan 16K
-3 Bulan 19K
-`
-},
-
-{
-name: "Microsoft 365 Private",
-category: "Tools",
-price: "Mulai 16K",
-description: `
-1 Bulan 16K
-2 Bulan 20K
-`
-},
-
-{
-name: "RCTI+ Sport Sharing",
-category: "Streaming",
-price: "Mulai 7K",
-description: `
-7 Hari 7K
-1 Bulan 9K
-2 Bulan 17K
-`
-},
-
-{
-name: "RCTI+ Sport Anti Limit",
-category: "Streaming",
-price: "Mulai 10K",
-description: `
-3 Hari 10K
-7 Hari 15K
-1 Bulan 20K
-`
-},
-
-{
-name: "RCTI+ Sport Private",
-category: "Streaming",
-price: "Mulai 15K",
-description: `
-3 Hari 15K
-7 Hari 20K
-1 Bulan 30K
-`
-},
-
-{
-name: "Blackbox AI Pro Sharing SU",
-category: "AI",
-price: "Mulai 18K",
-description: `
-7 Hari 18K
-14 Hari 30K
-1 Bulan 35K
-`
-},
-
-{
-name: "Blackbox AI Pro Sharing 2U",
-category: "AI",
-price: "Mulai 40K",
-description: `
-7 Hari 40K
-14 Hari 60K
-1 Bulan 90K
-`
-},
-
-{
-name: "MovieBox Sharing",
-category: "Streaming",
-price: "10K",
-description: `
-1 Bulan 10K
-`
-},
-
-{
-name: "Amazon Prime Video Sharing",
-category: "Streaming",
-price: "Mulai 5K",
-description: `
-1 Hari 5K
-3 Hari 8K
-5 Hari 10K
-7 Hari 14K
-`
-},
-
-{
-name: "Amazon Prime Video Sharing Bulanan",
-category: "Streaming",
-price: "Mulai 15K",
-description: `
-1 Bulan 15K
-2 Bulan 18K
-3 Bulan 28K
-`
-},
-
-{
-name: "Amazon Prime Video Private",
-category: "Streaming",
-price: "20K",
-description: `
-1 Bulan Fullgar 20K
-`
-},
-
-{
-name: "CapCut Private",
-category: "Editing",
-price: "Mulai 10K",
-description: `
-1 Hari 10K
-3 Hari 12K
-7 Hari 14K
-1 Bulan 28K
-2 Bulan 50K
-3 Bulan 75K
-1 Tahun 200K
-`
-},
-
-{
-name: "CapCut Sharing",
-category: "Editing",
-price: "Mulai 4K",
-description: `
-1 Hari 4K
-3 Hari 6K
-7 Hari 12K
-1 Bulan 20K
-2 Bulan 30K
-3 Bulan 40K
-`
-},
-,
+  
 {
 name: "Picsart Sharing",
 category: "Editing",
@@ -726,17 +378,6 @@ description: `
 },
 
 {
-name: "Bstation Private",
-category: "Streaming",
-price: "Mulai 15K",
-description: `
-7 Hari - 15K
-14 Hari - 20K
-1 Bulan - 30K
-`
-},
-
-{
 name: "Bstation Sharing",
 category: "Streaming",
 price: "10K",
@@ -744,6 +385,17 @@ description: `
 1 Bulan - 10K
 3 Bulan - 16K
 1 Tahun - 20K
+`
+},
+
+{
+name: "Bstation Private",
+category: "Streaming",
+price: "Mulai 15K",
+description: `
+7 Hari - 15K
+14 Hari - 20K
+1 Bulan - 30K
 `
 },
 
@@ -822,7 +474,7 @@ description: `
 },
 
 {
-name: "Quillbot Sharing SU",
+name: "Quillbot Sharing",
 category: "AI",
 price: "Mulai 5K",
 description: `
@@ -902,7 +554,7 @@ description: `
 },
 
 {
-name: "Blackbox AI Pro Sharing SU",
+name: "Blackbox AI Pro Sharing",
 category: "AI",
 price: "Mulai 18K",
 description: `
@@ -913,7 +565,7 @@ description: `
 },
 
 {
-name: "Blackbox AI Pro Sharing 2U",
+name: "Blackbox AI Pro 2U",
 category: "AI",
 price: "Mulai 40K",
 description: `
@@ -933,7 +585,7 @@ description: `
 },
 
 {
-name: "Amazon Prime Video Sharing Harian",
+name: "Amazon Prime Video Sharing",
 category: "Streaming",
 price: "Mulai 5K",
 description: `
@@ -945,7 +597,7 @@ description: `
 },
 
 {
-name: "Amazon Prime Video Sharing Bulanan",
+name: "Amazon Prime Video Bulanan",
 category: "Streaming",
 price: "Mulai 15K",
 description: `
@@ -965,6 +617,20 @@ description: `
 },
 
 {
+name: "CapCut Sharing",
+category: "Editing",
+price: "Mulai 4K",
+description: `
+1 Hari - 4K
+3 Hari - 6K
+7 Hari - 12K
+1 Bulan - 20K
+2 Bulan - 30K
+3 Bulan - 40K
+`
+},
+
+{
 name: "CapCut Private",
 category: "Editing",
 price: "Mulai 10K",
@@ -977,21 +643,7 @@ description: `
 3 Bulan - 75K
 1 Tahun - 200K
 `
-},
-
-{
-name: "CapCut Sharing",
-category: "Editing",
-price: "Mulai 4K",
-description: `
-1 Hari - 4K
-3 Hari - 6K
-7 Hari - 12K
-1 Bulan - 20K
-2 Bulan - 30K
-3 Bulan - 40K
-`
-  }
+  },
 
 {
 name: "Canva Edu Harian",
@@ -1021,8 +673,8 @@ description: `
 },
 
 {
-name: "YouTube Premium Individual",
-category: "Music",
+name: "YouTube Premium Indplan",
+category: "Streaming",
 price: "Mulai 15K",
 description: `
 1 Bulan - 15K
@@ -1033,7 +685,7 @@ description: `
 
 {
 name: "YouTube Premium Famplan",
-category: "Music",
+category: "Streaming",
 price: "Mulai 10K",
 description: `
 1 Bulan - 10K
@@ -1044,7 +696,7 @@ description: `
 
 {
 name: "YouTube Premium Mixplan",
-category: "Music",
+category: "Streaming",
 price: "Mulai 15K",
 description: `
 2 Bulan - 15K
@@ -1100,7 +752,7 @@ description: `
 },
 
 {
-name: "VIU Private Anime",
+name: "VIU Private Anlim",
 category: "Streaming",
 price: "Mulai 3K",
 description: `
@@ -1137,7 +789,7 @@ description: `
 },
 
 {
-name: "IQIYI Sharing Standard",
+name: "iQIYI Sharing Standar",
 category: "Streaming",
 price: "Mulai 4K",
 description: `
@@ -1150,7 +802,7 @@ description: `
 },
 
 {
-name: "IQIYI Sharing Anime",
+name: "iQIYI Sharing Anlim",
 category: "Streaming",
 price: "Mulai 20K",
 description: `
@@ -1160,7 +812,7 @@ description: `
 },
 
 {
-name: "IQIYI Private",
+name: "iQIYI Private",
 category: "Streaming",
 price: "Mulai 40K",
 description: `
@@ -1184,10 +836,18 @@ description: `
 {
 name: "Loklok Private",
 category: "Streaming",
-price: "Mulai 60K",
+price: "60K",
 description: `
-1 Bulan - 60K Basic
-1 Bulan - 75K Standar
+1 Bulan - 60K
+`
+},
+
+{
+name: "Loklok Basic Standar",
+category: "Streaming",
+price: "75K",
+description: `
+1 Bulan - 75K
 `
 },
 
@@ -1201,6 +861,30 @@ description: `
 5 Hari - 15K
 7 Hari - 18K
 1 Bulan - 38K
+`
+},
+
+{
+name: "Vision+ Sharing",
+category: "Streaming",
+price: "Mulai 6K",
+description: `
+1 Hari - 6K
+3 Hari - 8K
+7 Hari - 13K
+1 Bulan - 20K
+`
+},
+
+{
+name: "Vision+ Private",
+category: "Streaming",
+price: "Mulai 8K",
+description: `
+1 Hari - 8K
+3 Hari - 12K
+7 Hari - 17K
+1 Bulan - 25K
 `
 },
 
@@ -1238,7 +922,7 @@ description: `
 },
 
 {
-name: "Disney+ Anime",
+name: "Disney+ Anlim",
 category: "Streaming",
 price: "60K",
 description: `
@@ -1269,7 +953,7 @@ description: `
 },
 
 {
-name: "HBO Max Sharing ULT",
+name: "HBO Max Sharing Ultimate",
 category: "Streaming",
 price: "Mulai 9K",
 description: `
@@ -1293,7 +977,7 @@ description: `
 },
 
 {
-name: "HBO Max Private ULT",
+name: "HBO Max Private Ultimate",
 category: "Streaming",
 price: "Mulai 13K",
 description: `
@@ -1364,205 +1048,42 @@ description: `
 7 Hari - 17K
 1 Bulan - 30K
 `
-  }
-
-{
-name: "iQIYI Premium Anime",
-category: "Streaming",
-price: "Mulai 25K",
-description: `
-1 Bulan - 25K
-2 Bulan - 45K
-3 Bulan - 65K
-`
-},
-
-{
-name: "iQIYI Premium Standard",
-category: "Streaming",
-price: "Mulai 18K",
-description: `
-1 Bulan - 18K
-2 Bulan - 30K
-3 Bulan - 45K
-`
-},
-
-{
-name: "Crunchyroll Mega Fan",
-category: "Streaming",
-price: "Mulai 20K",
-description: `
-1 Bulan - 20K
-3 Bulan - 35K
-6 Bulan - 55K
-1 Tahun - 70K
-`
-},
-
-{
-name: "Loklok Premium Basic",
-category: "Streaming",
-price: "Mulai 28K",
-description: `
-1 Bulan - 28K
-`
-},
-
-{
-name: "Loklok Premium Standard",
-category: "Streaming",
-price: "Mulai 38K",
-description: `
-1 Bulan - 38K
-`
-},
-
-{
-name: "Youku Premium",
-category: "Streaming",
-price: "Mulai 25K",
-description: `
-1 Bulan - 25K
-`
-},
-
-{
-name: "Prime Video Fullgar",
-category: "Streaming",
-price: "Mulai 20K",
-description: `
-1 Bulan - 20K
-`
-},
-
-{
-name: "Prime Video Sharing",
-category: "Streaming",
-price: "Mulai 15K",
-description: `
-1 Bulan - 15K
-2 Bulan - 18K
-3 Bulan - 28K
-`
-},
-
-{
-name: "MovieBox Pro",
-category: "Streaming",
-price: "10K",
-description: `
-1 Bulan - 10K
-`
-},
-
-{
-name: "Blackbox AI Pro",
+  },
+  {
+name: "ChatGPT Plus Sharing 8U",
 category: "AI",
-price: "Mulai 35K",
+price: "Mulai 8K",
 description: `
-1 Bulan Sharing - 35K
-1 Bulan Private - 90K
+1 Hari - 8K
+3 Hari - 16K
+5 Hari - 18K
+7 Hari - 20K
+1 Bulan - 30K
 `
 },
 
 {
-name: "Perplexity Pro",
+name: "ChatGPT Plus Sharing 5U",
 category: "AI",
-price: "Mulai 35K",
-description: `
-1 Bulan Sharing - 35K
-1 Bulan Private - 45K
-`
-},
-
-{
-name: "Gemini Advanced",
-category: "AI",
-price: "Mulai 25K",
-description: `
-1 Bulan Sharing - 25K
-1 Bulan Private - 35K
-`
-},
-
-{
-name: "Canva Edu",
-category: "Design",
 price: "Mulai 10K",
 description: `
-1 Bulan - 10K
-2 Bulan - 12K
-3 Bulan - 14K
-4 Bulan - 16K
-5 Bulan - 18K
-6 Bulan - 20K
+1 Hari - 10K
+3 Hari - 18K
+5 Hari - 20K
+7 Hari - 28K
+1 Bulan - 35K
 `
 },
 
 {
-name: "Canva Pro Member",
-category: "Design",
-price: "Mulai 10K",
-description: `
-1 Bulan - 10K
-2 Bulan - 12K
-3 Bulan - 15K
-4 Bulan - 18K
-5 Bulan - 22K
-6 Bulan - 25K
-1 Tahun - 32K
-`
-},
-
-{
-name: "Goodnotes 6 Lifetime",
-category: "Tools",
-price: "30K",
-description: `
-Lifetime - 30K
-`
-},
-
-{
-name: "Microsoft 365",
-category: "Tools",
-price: "Mulai 14K",
-description: `
-1 Bulan - 14K
-2 Bulan - 16K
-3 Bulan - 19K
-`
-},
-
-{
-name: "Quillbot Premium",
-category: "Tools",
-price: "Mulai 15K",
-description: `
-1 Bulan Sharing - 15K
-1 Bulan Private - 50K
-`
-},
-
-{
-name: "Wattpad Premium",
-category: "Tools",
-price: "Mulai 15K",
-description: `
-1 Bulan Sharing - 15K
-2 Bulan - 33K
-3 Bulan - 40K
-6 Bulan - 45K
-`
-},
-
-{
-name: "GetContact Premium",
-category: "Tools",
+name: "ChatGPT Plus Sharing 3U",
+category: "AI",
 price: "Mulai 25K",
 description: `
-1 Bulan - 25K
+7 Hari - 25K
+14 Hari - 30K
+1 Bulan - 40K
+2 Bulan - 74K
 `
 }
 
